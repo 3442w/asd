@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "highpercentvisualmod",
+  "version": "1.0.0",
+  "name": "High Percent Visual Mod",
+  "description": "Mod visually shows 41% bonus damage on items in Minecraft 1.19.2.",
+  "authors": ["ChatGPT"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.highpercentvisualmod.HighPercentVisualMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.2",
+    "fabric": "*"
+  }
+}
